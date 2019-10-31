@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\mengchengdu\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldrtl-hdpi\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\923badf779df4af2eaa7820a69e65d139acd660d\\output\\res\\drawable-ldrtl-hdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\mengchengdu\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldrtl-hdpi\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\923badf779df4af2eaa7820a69e65d139acd660d\\output\\res\\drawable-ldrtl-hdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\mengchengdu\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldrtl-hdpi\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\923badf779df4af2eaa7820a69e65d139acd660d\\output\\res\\drawable-ldrtl-hdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldrtl-hdpi\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "E:\\AndroidSDK\\avd\\.android\\build-cache\\e0d5c9f68bb9bd627ee355e8c11b5c5d8f859026\\output\\res\\drawable-ldrtl-hdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldrtl-hdpi\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "E:\\AndroidSDK\\avd\\.android\\build-cache\\e0d5c9f68bb9bd627ee355e8c11b5c5d8f859026\\output\\res\\drawable-ldrtl-hdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\mengchengdu\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldrtl-hdpi\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\923badf779df4af2eaa7820a69e65d139acd660d\\output\\res\\drawable-ldrtl-hdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldrtl-hdpi\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "E:\\AndroidSDK\\avd\\.android\\build-cache\\e0d5c9f68bb9bd627ee355e8c11b5c5d8f859026\\output\\res\\drawable-ldrtl-hdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldrtl-hdpi\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "E:\\AndroidSDK\\avd\\.android\\build-cache\\e0d5c9f68bb9bd627ee355e8c11b5c5d8f859026\\output\\res\\drawable-ldrtl-hdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    }
+]

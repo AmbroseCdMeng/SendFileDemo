@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "E:\\mengchengdu\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\923badf779df4af2eaa7820a69e65d139acd660d\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "E:\\mengchengdu\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\923badf779df4af2eaa7820a69e65d139acd660d\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "E:\\mengchengdu\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\923badf779df4af2eaa7820a69e65d139acd660d\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "E:\\AndroidSDK\\avd\\.android\\build-cache\\e0d5c9f68bb9bd627ee355e8c11b5c5d8f859026\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "E:\\AndroidSDK\\avd\\.android\\build-cache\\e0d5c9f68bb9bd627ee355e8c11b5c5d8f859026\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "E:\\mengchengdu\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\923badf779df4af2eaa7820a69e65d139acd660d\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_search_url_text.xml",
+        "source": "E:\\AndroidSDK\\avd\\.android\\build-cache\\e0d5c9f68bb9bd627ee355e8c11b5c5d8f859026\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "E:\\mengchengdu\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\923badf779df4af2eaa7820a69e65d139acd660d\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_material_dark.xml",
+        "source": "E:\\AndroidSDK\\avd\\.android\\build-cache\\e0d5c9f68bb9bd627ee355e8c11b5c5d8f859026\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_secondary_text_material_dark.xml",
+        "source": "E:\\AndroidSDK\\avd\\.android\\build-cache\\e0d5c9f68bb9bd627ee355e8c11b5c5d8f859026\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\color\\switch_thumb_material_light.xml",
+        "source": "E:\\AndroidSDK\\avd\\.android\\build-cache\\e0d5c9f68bb9bd627ee355e8c11b5c5d8f859026\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "E:\\mengchengdu\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\923badf779df4af2eaa7820a69e65d139acd660d\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "E:\\mengchengdu\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\923badf779df4af2eaa7820a69e65d139acd660d\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "E:\\mengchengdu\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\923badf779df4af2eaa7820a69e65d139acd660d\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "E:\\mengchengdu\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\923badf779df4af2eaa7820a69e65d139acd660d\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_secondary_text_material_light.xml",
+        "source": "E:\\AndroidSDK\\avd\\.android\\build-cache\\e0d5c9f68bb9bd627ee355e8c11b5c5d8f859026\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_material_light.xml",
+        "source": "E:\\AndroidSDK\\avd\\.android\\build-cache\\e0d5c9f68bb9bd627ee355e8c11b5c5d8f859026\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\release\\color\\switch_thumb_material_dark.xml",
+        "source": "E:\\AndroidSDK\\avd\\.android\\build-cache\\e0d5c9f68bb9bd627ee355e8c11b5c5d8f859026\\output\\res\\color\\switch_thumb_material_dark.xml"
+    }
+]

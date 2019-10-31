@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_jars__:E.\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\libs\ZSDK_ANDROID_API.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/ZSDK_ANDROID_API.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

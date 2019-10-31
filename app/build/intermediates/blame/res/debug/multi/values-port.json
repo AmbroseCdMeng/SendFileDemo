@@ -1,0 +1,50 @@
+[
+    {
+        "outputFile": "E:\\mengchengdu\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\923badf779df4af2eaa7820a69e65d139acd660d\\output\\res\\values-port\\values-port.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 291,
+                        "endColumn": 55,
+                        "endOffset": 342
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "E:\\AndroidSDK\\avd\\.android\\build-cache\\e0d5c9f68bb9bd627ee355e8c11b5c5d8f859026\\output\\res\\values-port\\values-port.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 291,
+                        "endColumn": 55,
+                        "endOffset": 342
+                    }
+                }
+            }
+        ]
+    }
+]

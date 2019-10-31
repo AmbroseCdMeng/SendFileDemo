@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_text_material.xml",
+        "source": "E:\\AndroidSDK\\avd\\.android\\build-cache\\5a292f471596fce1c95bfc1d497cae657df3399f\\output\\res\\color-v23\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
+        "source": "E:\\AndroidSDK\\avd\\.android\\build-cache\\5a292f471596fce1c95bfc1d497cae657df3399f\\output\\res\\color-v23\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
+        "source": "E:\\AndroidSDK\\avd\\.android\\build-cache\\5a292f471596fce1c95bfc1d497cae657df3399f\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
+        "source": "E:\\AndroidSDK\\avd\\.android\\build-cache\\a4ec1f0e2a094d9327fb9678df2712a96523ffd6\\output\\res\\color-v23\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
+        "source": "E:\\AndroidSDK\\avd\\.android\\build-cache\\5a292f471596fce1c95bfc1d497cae657df3399f\\output\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
+        "source": "E:\\AndroidSDK\\avd\\.android\\build-cache\\5a292f471596fce1c95bfc1d497cae657df3399f\\output\\res\\color-v23\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
+        "source": "E:\\AndroidSDK\\avd\\.android\\build-cache\\5a292f471596fce1c95bfc1d497cae657df3399f\\output\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
+        "source": "E:\\AndroidSDK\\avd\\.android\\build-cache\\5a292f471596fce1c95bfc1d497cae657df3399f\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "E:\\AndroidSDK\\avd\\.android\\build-cache\\5a292f471596fce1c95bfc1d497cae657df3399f\\output\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
+        "source": "E:\\AndroidSDK\\avd\\.android\\build-cache\\5a292f471596fce1c95bfc1d497cae657df3399f\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
+    }
+]

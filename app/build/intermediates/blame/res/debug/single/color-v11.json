@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\mengchengdu\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\923badf779df4af2eaa7820a69e65d139acd660d\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "E:\\AndroidSDK\\avd\\.android\\build-cache\\e0d5c9f68bb9bd627ee355e8c11b5c5d8f859026\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "F:\\335.LinkOS-Android\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "E:\\AndroidSDK\\avd\\.android\\build-cache\\e0d5c9f68bb9bd627ee355e8c11b5c5d8f859026\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "E:\\mengchengdu\\LinkOS-Android-Samples-SendFileDemo\\SendFileDemo\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\923badf779df4af2eaa7820a69e65d139acd660d\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    }
+]
