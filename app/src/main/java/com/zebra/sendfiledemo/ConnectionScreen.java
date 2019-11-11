@@ -110,7 +110,7 @@ public abstract class ConnectionScreen extends AppCompatActivity {
         });
     }
 
-    protected String getZPLFieldText(){
+    protected String getZPLFieldText() {
         return zplTextView.getText().toString();
     }
 

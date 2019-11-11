@@ -15,6 +15,7 @@
 
 
     </style>
+
     <style name="ActivityTheme" parent="android:Theme.DeviceDefault.Light.DarkActionBar">
         <item name="android:actionBarStyle">@style/MyActionBarActivity</item>
         <item name="actionBarStyle">@style/MyActionBarActivity</item>
@@ -29,6 +30,7 @@
         <item name="android:logo">@android:color/transparent</item>
 
     </style>
+
     <style name="MyTitleTextStyleActivity" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
         <item name="android:textColor">@color/light_gray</item>
         <item name="android:textSize">@dimen/action_bar_text_size</item>
@@ -36,6 +38,7 @@
 
 
     </style>
+
     <style name="printButtonSTyle">
         <item name="android:background">@color/zebra_blue</item>
         <item name="android:textColor">@color/light_gray</item>

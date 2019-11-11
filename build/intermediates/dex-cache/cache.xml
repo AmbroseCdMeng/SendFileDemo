@@ -29,6 +29,51 @@
         <dex dex="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\build\intermediates\pre-dexed\debug\classes_2d077168335d774520af733d2441b54f4a1a5901.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\libs\commons-validator-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="42fa1046955ade59f5354a1876cfc523cea33815">
+        <dex dex="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-validator-1.4.0_a6c8969cd760287c02b1f279d6044e9e967d296e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\libs\ZSDK_ANDROID_API.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9b2e3b24880bbd526b0b23469b125aed3ef6d6f4">
+        <dex dex="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\ZSDK_ANDROID_API_82683a145728d5b5861dbae9d5da5d4b5980396b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da644cc4f2ca6b016f03a4f004f64302e8ab0e20">
+        <dex dex="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_59e21aaa008fb7ce184080969fb2b5f28423fa33\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\libs\jackson-core-2.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\jackson-core-2.2.3_4568033ae68fdc557bfc43008aed09e75b0c8520\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\libs\jackson-databind-2.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="03ae380888029daefb91d3ecdca3a37d8cb92bc9">
+        <dex dex="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\jackson-databind-2.2.3_adec6944739569ec1f4ec7f256480f2ba4d2edb1\classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\libs\jackson-core-2.2.3.jar"
         jumboMode="false"
@@ -54,6 +99,24 @@
         revision="25.0.0"
         sha1="f1231104847b1132a07c54c7db8a823ef7923f7c">
         <dex dex="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\build\intermediates\pre-dexed\debug\opencsv-2.2_7101cf422413795b3266f8032d89373ccc1065a8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\libs\opencsv-2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f1231104847b1132a07c54c7db8a823ef7923f7c">
+        <dex dex="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\opencsv-2.2_7101cf422413795b3266f8032d89373ccc1065a8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\libs\jackson-annotations-2.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0527fece4f23a457070a36c371a26d6c0208e1c3">
+        <dex dex="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\jackson-annotations-2.2.3_9c5a38ea76be0aacc574d0aec051db5a07c6608d\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -83,6 +146,15 @@
         <dex dex="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\build\intermediates\pre-dexed\debug\snmp6_1_e3cc3b56c0581aa8932680799fdf8ed7f52875c8.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_3f83ec4fbf5483859981ab88bc8201c49988dd84\classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="C:\Users\Administrator\.android\build-cache\ee8342b2598538aaf294ec470cb3326eebc08ff3\output\jars\libs\internal_impl-22.2.0.jar"
         jumboMode="false"
@@ -90,6 +162,15 @@
         revision="25.0.0"
         sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
         <dex dex="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0_219e43f44ceb20aa6157493a6c32ebeb4dfb9ef3.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\libs\snmp6_1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f65af1cddb65e525f89a48c8c711a9ef95da26f5">
+        <dex dex="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\snmp6_1_e3cc3b56c0581aa8932680799fdf8ed7f52875c8\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -119,6 +200,24 @@
         <dex dex="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\build\intermediates\pre-dexed\debug\httpmime-4.3.2_6ffe3ae3aa55b4957757e1b6fd357c94c3cde66c.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\libs\httpcore-4.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="98e2eefcf524f757188f172642ecf5e2c7421947">
+        <dex dex="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpcore-4.3.1_76e529565316c14e1724e641c9299375853c7504\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\libs\httpmime-4.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3202421d9425ced69919b282afa644e7ef0e8fef">
+        <dex dex="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\httpmime-4.3.2_6ffe3ae3aa55b4957757e1b6fd357c94c3cde66c\classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\libs\httpcore-4.3.1.jar"
         jumboMode="false"
@@ -144,6 +243,24 @@
         revision="25.0.0"
         sha1="2298164a7c2484406f2aa5ac85b205d39019896f">
         <dex dex="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\build\intermediates\pre-dexed\debug\commons-net-3.1_74f252818be6541134d4ad3a2a98a9ccc29aeae6.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\libs\commons-net-3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2298164a7c2484406f2aa5ac85b205d39019896f">
+        <dex dex="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-net-3.1_74f252818be6541134d4ad3a2a98a9ccc29aeae6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\libs\commons-io-2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="83b5b8a7ba1c08f9e8c8ff2373724e33d3c1e22a">
+        <dex dex="E:\mengchengdu\LinkOS-Android-Samples-SendFileDemo\SendFileDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-io-2.2_5d217b9282a7f86b3bb99dde4257ed7e7a534cdd\classes.dex" />
     </item>
 
 </items>

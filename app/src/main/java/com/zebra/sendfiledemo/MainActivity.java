@@ -27,6 +27,9 @@ import com.zebra.sdk.printer.ZebraPrinterLinkOs;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.Date;
+
+import static com.zebra.sendfiledemo.ZPL.ZQ520.Calc;
 
 public class MainActivity extends ConnectionScreen {
     private UIHelper helper = new UIHelper(this);
@@ -162,48 +165,73 @@ public class MainActivity extends ConnectionScreen {
         if (pl == PrinterLanguage.ZPL) {
             //configLabel = "^XA^FO17,16^GB379,371,8^FS^FT65,255^A0N,135,134^FDTEST^FS^XZ".getBytes();
             StringBuilder builder = new StringBuilder();
+            builder.append("^XA");//开始指令
+            builder.append("~JC");//重新侦测纸张大小
+            builder.append("^CI26");//编码
 
-            builder.append("^XA");
-            /*文本打印 start*/
+            builder.append("^LL" + Calc(37d) + "^FS");//标签长度
+            builder.append("^PW" + Calc(48d) + "^FS");
+            builder.append("^LH" + Calc(0d) + "," + Calc(0d) + "^FS");//起始位置
 
-            builder.append("^LH40,40^FS");//原点位置
-            builder.append("^LL300^FS");//标签长度
-            builder.append("^FO20,10");//文本/条码位置
-            builder.append("^MD10");//浅暗度
-            builder.append("^AEN,60,30");//字体类型大小
-            builder.append("^FD" + "Foxconn" + "^FS");//文本内容
+            builder.append("^FO" + Calc(16d) + "," + Calc(4d) + "");//文本位置
+            builder.append("^AAN,10,10");//字体类型大小
+            builder.append("^FD" + "零數標示單：" + "^FS");//文本内容  零數標示單
 
-            /*条码打印 start*/
-            builder.append("^FO20,80");//文本/条码位置
-            builder.append("^MD20");//浅暗度
-            builder.append("^BY3,2.4,50");//条形码系统设定（默认）
-            builder.append("^B3N,Y,20,N,N");//Code 39
-            builder.append("^FD" + "6971458916004" + "^FS");//条形码数据
+            builder.append("^FO" + Calc(3d) + "," + Calc(12d) + "");
+            builder.append("^AAN,10,10");
+            builder.append("^FD" + "料號：" + "^FS");//料號
 
-            /*文本打印*/
-            builder.append("^FO20,100");
-            builder.append("^MD25");//浅暗度
-            builder.append("^AEN,80,80");
-            builder.append("^FD" + getZPLFieldText() + "^FS");
+            builder.append("^FO" + Calc(12d) + "," + Calc(12.5) + "");
+            builder.append("^AAN,10,10");
+            builder.append("^FD" + "2T459M000-000-G5：" + "^FS");
+
+            builder.append("^FO" + Calc(3d) + "," + Calc(21d) + "");
+            builder.append("^AEN,10,10");
+            builder.append("^FD" + "數量：" + "^FS");//數量
+
+            builder.append("^FO" + Calc(12d) + "," + Calc(21.5d) + "");
+            builder.append("^AEN,10,10");
+            builder.append("^FD" + "200000 PCS" + "^FS");
+
+            builder.append("^FO" + Calc(3d) + "," + Calc(30d) + "");
+            builder.append("^AEN,10,10");
+            builder.append("^FD" + "分碼：" + "^FS");//分碼
+
+            builder.append("^FO" + Calc(12d) + "," + Calc(30.5d) + "");
+            builder.append("^AEN,10,10");
+            builder.append("^FD" + "20191107" + "^FS");
 
 
-            /*汉字打印*/
-            builder.append("^FO20,160");
-            builder.append("^MD10");//浅暗度
-            builder.append("^BQ,2,10");
-            builder.append("^CW1,E:SIMSUN.FNT");//字体（宋体）
-            builder.append("^CI26");
-            builder.append("^FD中文^FS") ;//打印文字
-
-            /*二维码打印*/
-            builder.append("^FO80,160");
-            builder.append("^FT448,288^BQ2,2,10^A1N,48,48");//浅暗度
-            builder.append("^FD中文^FS") ;//打印文字
-            builder.append("^FD中文^FS");  //打印二维码
+            /*二维码打印 20*20*/
+            builder.append("^FO" + Calc(28d) + "," + Calc(17d) + "");//文本/条码位置
+            builder.append("^BQN,2,3,^FD" + "W,NEW00182631190729C0001(新GUID),P2a-J60102,2T459M000-000-G5,20190729,WmL-J76036,2000,PCS,VCN00182631190729C0001(舊GUID)" + "^FS"); //打印二维码
 
             builder.append("^XZ");
 
             configLabel = builder.toString().getBytes();
+
+
+            String s = "^XA\n" +
+                    "~JC\n" +
+                    "\n" +
+                    "^LL296\n" +
+                    "^PW384\n" +
+                    "^LH0,0\n" +
+                    "^CI26\n" +
+                    "\n" +
+                    "^FO128,32^AAN,10,10^FDFormType^FS\n" +
+                    "^FO24,96^AAN,10,10^FD料號:^FS\n" +
+                    "^FO96,100^AAN,10,10^FD2T459M000-000-G5^FS\n" +
+                    "^FO24,168^AAN,10,10^FDCount:^FS\n" +
+                    "^FO96,172^AAN,10,10^FD200000 PCS^FS\n" +
+                    "^FO24,240^AAN,10,10^FDFenMa:^FS\n" +
+                    "^FO96,244^AAN,10,10^FD20191107^FS\n" +
+                    "\n" +
+                    "^FO224,136^BQN,2,3^FD\n" +
+                    "   NEW00182631190729C0001(新GUID),P2a-J60102,2T459M000-000-G5,20190729,WmL-J76036,2000,PCS,VCN00182631190729C0001(舊GUID)^FS\n" +
+                    "\n" +
+                    "^XZ";
+            //configLabel = s.getBytes();
         } else if (pl == PrinterLanguage.CPCL) {
             String cpclConfigLabel = "! 0 200 200 406 1\r\n" + "ON-FEED IGNORE\r\n" + "BOX 20 20 380 380 8\r\n" + "T 0 6 137 177 TEST\r\n" + "PRINT\r\n";
             configLabel = cpclConfigLabel.getBytes();

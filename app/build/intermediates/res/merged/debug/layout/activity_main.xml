@@ -27,8 +27,7 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginBottom="5dp"
-                android:background="@android:color/white"
-                android:text="^XA^FO17,16^GB379,371,8^FS^FT65,255^A0N,135,134^FDTEST^FS^XZ" />
+                android:background="@android:color/white" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -54,7 +53,7 @@
                         android:layout_marginTop="10dp"
                         android:textSize="18dp"
                         android:checked="true"
-                        android:text="IP/DNS"/>
+                        android:text="IP/DNS" />
 
                     <RadioButton
                         android:layout_height="wrap_content"
@@ -149,13 +148,14 @@
                 android:layout_marginBottom="@dimen/margin_default"
                 android:layout_marginRight="@dimen/margin_default"
                 android:elevation="@dimen/elevation_default">
+
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:id="@+id/testButton"
                     android:background="@android:color/white"
                     android:textColor="@color/zebra_blue"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
 
             </LinearLayout>
@@ -168,7 +168,7 @@
                 android:background="@android:color/white"
                 android:textColor="@color/zebra_blue"
                 android:visibility="invisible"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
 
         </LinearLayout>
