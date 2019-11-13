@@ -228,7 +228,7 @@ public class MainActivity extends ConnectionScreen {
                     "^FO24,222^AEN,10,10^FDCode:^FS\n" +
                     "^FO54,264^AEN,10,10^FD20191107^FS\n" +
                     "\n" +
-                    "^FO260,172^BQN,2,2^FD\n" +
+                    "^FO280,202^BQN,2,2^FD\n" +
                     "   W," + Util.GUID() + ",P2a-J60102,2T459M000-000-G5,20190729,WmL-J76036," + count1 + ",PCS," + oldguid + "^FS\n" +
                     "\n" +
                     "^XZ";
@@ -250,7 +250,7 @@ public class MainActivity extends ConnectionScreen {
                     "^FO24,222^AEN,10,10^FDCode:^FS\n" +
                     "^FO54,264^AEN,10,10^FD20191107^FS\n" +
                     "\n" +
-                    "^FO260,172^BQN,2,2^FD\n" +
+                    "^FO280,202^BQN,2,2^FD\n" +
                     "   W," + Util.GUID() + ",P2a-J60102,2T459M000-000-G5,20190729,WmL-J76036," + count2 + ",PCS," + oldguid + "^FS\n" +
                     "\n" +
                     "^XZ";
