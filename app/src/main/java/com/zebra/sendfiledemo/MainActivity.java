@@ -23,6 +23,7 @@ import com.zebra.sdk.printer.ZebraPrinter;
 import com.zebra.sdk.printer.ZebraPrinterFactory;
 import com.zebra.sdk.printer.ZebraPrinterLanguageUnknownException;
 import com.zebra.sdk.printer.ZebraPrinterLinkOs;
+import com.zebra.sendfiledemo.Util.Util;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -164,53 +165,28 @@ public class MainActivity extends ConnectionScreen {
         PrinterLanguage pl = printer.getPrinterControlLanguage();
         if (pl == PrinterLanguage.ZPL) {
             //configLabel = "^XA^FO17,16^GB379,371,8^FS^FT65,255^A0N,135,134^FDTEST^FS^XZ".getBytes();
-            StringBuilder builder = new StringBuilder();
-            builder.append("^XA");//开始指令
-            builder.append("~JC");//重新侦测纸张大小
-            builder.append("^CI26");//编码
 
-            builder.append("^LL" + Calc(37d) + "^FS");//标签长度
-            builder.append("^PW" + Calc(48d) + "^FS");
-            builder.append("^LH" + Calc(0d) + "," + Calc(0d) + "^FS");//起始位置
+            /* 總數 */
+            int count = 20000;
 
-            builder.append("^FO" + Calc(16d) + "," + Calc(4d) + "");//文本位置
-            builder.append("^AAN,10,10");//字体类型大小
-            builder.append("^FD" + "零數標示單：" + "^FS");//文本内容  零數標示單
+            /* 拆分兩個數字 */
+            int count1 = (int) (Math.random() * count);
 
-            builder.append("^FO" + Calc(3d) + "," + Calc(12d) + "");
-            builder.append("^AAN,10,10");
-            builder.append("^FD" + "料號：" + "^FS");//料號
+            try {
+                count1 = Integer.parseInt(getZPLFieldText());
+            } catch (Exception e) {
+                Toast.makeText(MainActivity.this, "轉換 Int 類型失敗" + "\n" + "Language set to ZPL", Toast.LENGTH_LONG).show();
+            }
+            if (count1 > count) {
+                Toast.makeText(MainActivity.this, "不能大於總數" + "\n" + "Language set to ZPL", Toast.LENGTH_LONG).show();
 
-            builder.append("^FO" + Calc(12d) + "," + Calc(12.5) + "");
-            builder.append("^AAN,10,10");
-            builder.append("^FD" + "2T459M000-000-G5：" + "^FS");
+            }
 
-            builder.append("^FO" + Calc(3d) + "," + Calc(21d) + "");
-            builder.append("^AEN,10,10");
-            builder.append("^FD" + "數量：" + "^FS");//數量
+            int count2 = count - count1;
 
-            builder.append("^FO" + Calc(12d) + "," + Calc(21.5d) + "");
-            builder.append("^AEN,10,10");
-            builder.append("^FD" + "200000 PCS" + "^FS");
+            String oldguid = Util.GUID();
 
-            builder.append("^FO" + Calc(3d) + "," + Calc(30d) + "");
-            builder.append("^AEN,10,10");
-            builder.append("^FD" + "分碼：" + "^FS");//分碼
-
-            builder.append("^FO" + Calc(12d) + "," + Calc(30.5d) + "");
-            builder.append("^AEN,10,10");
-            builder.append("^FD" + "20191107" + "^FS");
-
-
-            /*二维码打印 20*20*/
-            builder.append("^FO" + Calc(28d) + "," + Calc(17d) + "");//文本/条码位置
-            builder.append("^BQN,2,3,^FD" + "W,NEW00182631190729C0001(新GUID),P2a-J60102,2T459M000-000-G5,20190729,WmL-J76036,2000,PCS,VCN00182631190729C0001(舊GUID)" + "^FS"); //打印二维码
-
-            builder.append("^XZ");
-
-            configLabel = builder.toString().getBytes();
-
-
+            /*
             String s = "^XA\n" +
                     "~JC\n" +
                     "\n" +
@@ -218,20 +194,69 @@ public class MainActivity extends ConnectionScreen {
                     "^PW384\n" +
                     "^LH0,0\n" +
                     "^CI26\n" +
+                    "^SEE:GB18030.DAT^FS\n" +
+                    "^CW1,E:HANS.TTF^FS" +
                     "\n" +
-                    "^FO128,32^AAN,10,10^FDFormType^FS\n" +
-                    "^FO24,96^AAN,10,10^FD料號:^FS\n" +
+                    "^FO128,32^AAN,20,20^FDFORMTYPE^FS\n" +
+                    "^FO24,96^AAN,10,10^FDMTLNO:^FS\n" +
                     "^FO96,100^AAN,10,10^FD2T459M000-000-G5^FS\n" +
-                    "^FO24,168^AAN,10,10^FDCount:^FS\n" +
+                    "^FO24,168^AAN,10,10^FDCOUNT:^FS\n" +
                     "^FO96,172^AAN,10,10^FD200000 PCS^FS\n" +
-                    "^FO24,240^AAN,10,10^FDFenMa:^FS\n" +
+                    "^FO24,240^AAN,10,10^FDCODE:^FS\n" +
                     "^FO96,244^AAN,10,10^FD20191107^FS\n" +
                     "\n" +
                     "^FO224,136^BQN,2,3^FD\n" +
-                    "   NEW00182631190729C0001(新GUID),P2a-J60102,2T459M000-000-G5,20190729,WmL-J76036,2000,PCS,VCN00182631190729C0001(舊GUID)^FS\n" +
+                    "   W," + Util.GUID() + ",P2a-J60102,2T459M000-000-G5,20190729,WmL-J76036," + count1 + ",PCS," + oldguid + "^FS\n" +
                     "\n" +
                     "^XZ";
-            //configLabel = s.getBytes();
+            */
+            String s1 = "^XA\n" +
+                    "~JC\n" +
+                    "\n" +
+                    "^LL320\n" +
+                    "^PW400\n" +
+                    "^LH0,0\n" +
+                    "^CI26\n" +
+                    "^SEE:GB18030.DAT\n" +
+                    "\n" +
+                    "\n" +
+                    "^FO128,20^AEN,10,10^FDType^FS\n" +
+                    "^FO24,62^AEN,10,10^FDNO:^FS\n" +
+                    "^FO54,102^AEN,10,10^FD2T459M000-000-G5^FS\n" +
+                    "^FO24,142^AEN,10,10^FDCount:^FS\n" +
+                    "^FO54,182^AEN,10,10^FD200000 PCS^FS\n" +
+                    "^FO24,222^AEN,10,10^FDCode:^FS\n" +
+                    "^FO54,264^AEN,10,10^FD20191107^FS\n" +
+                    "\n" +
+                    "^FO260,172^BQN,2,2^FD\n" +
+                    "   W," + Util.GUID() + ",P2a-J60102,2T459M000-000-G5,20190729,WmL-J76036," + count1 + ",PCS," + oldguid + "^FS\n" +
+                    "\n" +
+                    "^XZ";
+            String s2 = "^XA\n" +
+                    "~JC\n" +
+                    "\n" +
+                    "^LL320\n" +
+                    "^PW400\n" +
+                    "^LH0,0\n" +
+                    "^CI26\n" +
+                    "^SEE:GB18030.DAT\n" +
+                    "\n" +
+                    "\n" +
+                    "^FO128,20^AEN,10,10^FDType^FS\n" +
+                    "^FO24,62^AEN,10,10^FDNO:^FS\n" +
+                    "^FO54,102^AEN,10,10^FD2T459M000-000-G5^FS\n" +
+                    "^FO24,142^AEN,10,10^FDCount:^FS\n" +
+                    "^FO54,182^AEN,10,10^FD200000 PCS^FS\n" +
+                    "^FO24,222^AEN,10,10^FDCode:^FS\n" +
+                    "^FO54,264^AEN,10,10^FD20191107^FS\n" +
+                    "\n" +
+                    "^FO260,172^BQN,2,2^FD\n" +
+                    "   W," + Util.GUID() + ",P2a-J60102,2T459M000-000-G5,20190729,WmL-J76036," + count2 + ",PCS," + oldguid + "^FS\n" +
+                    "\n" +
+                    "^XZ";
+
+            configLabel = (s1 + s2).getBytes();
+            //configLabel = "^XA~JC^LH0,0^WDE:*.*^XZ".getBytes();
         } else if (pl == PrinterLanguage.CPCL) {
             String cpclConfigLabel = "! 0 200 200 406 1\r\n" + "ON-FEED IGNORE\r\n" + "BOX 20 20 380 380 8\r\n" + "T 0 6 137 177 TEST\r\n" + "PRINT\r\n";
             configLabel = cpclConfigLabel.getBytes();
